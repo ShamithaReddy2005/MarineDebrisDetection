@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['can', 'foam', 'plastic', 'plastic bottle', 'unknow']
+
+roboflow:
+  workspace: datavision-2dcwk
+  project: marine-debris-i2ge3-ftwk4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/datavision-2dcwk/marine-debris-i2ge3-ftwk4/dataset/1
